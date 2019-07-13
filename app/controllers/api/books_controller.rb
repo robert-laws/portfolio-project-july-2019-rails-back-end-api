@@ -4,6 +4,11 @@ class Api::BooksController < ApplicationController
     render json: @books
   end
 
+  def show
+    @book = Book.find(params[:id])
+    render json: @book
+  end
+
   def create
     @book = Book.new(book_params)
     if @book.save
@@ -11,6 +16,11 @@ class Api::BooksController < ApplicationController
     else
       render json: { errors: { message: "This book failed to save" }}
     end
+  end
+
+  def destroy
+    @book = Book.find(params[:id])
+    @book.delete
   end
 
   private
