@@ -1,24 +1,3 @@
-# README
+# Portfolio Project - React+Redux - Summer Reading API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This repository is for an API source to be used with a [React + Redux front-end application](https://github.com/robert-laws/portfolio-project-july-2019-react-front-end). The API holds a database of books that are used to populate a summer reading program book list.
